@@ -5,6 +5,7 @@ var option2 = document.querySelector("#option-2")
 var option3 = document.querySelector("#option-3")
 var option4 = document.querySelector("#option-4")
 var options = document.querySelectorAll('.options');
+var resultHolder = document.querySelector('result-holder');
 
 var counter = 0;
 
@@ -50,9 +51,12 @@ option4.textContent = questionsArray[0].option_4;
 for(var i = 0; i < options.length; i++) {
     options[i].addEventListener("click", function(event) {
 
+
+
         // checking if answer click is correct
         if(event.target.textContent == questionsArray[counter].answer) {
             score++;
+            //resultHolder.textContent = 'Correct';
             console.log("Correct!")
         } else {
             console.log("Wrong!")
@@ -80,3 +84,14 @@ for(var i = 0; i < options.length; i++) {
         option4.textContent = questionsArray[counter].option_4;
     })
 }
+
+// var timerEl = document.getElementById('timeleft');
+
+// function countdown () {
+// var timeleft = 75;
+// var timeinterval = setInterval(function() {
+// if (timeleft > 1) {
+//     timeleft--;
+// }
+// timerEl.textcontent = timeleft;
+// };

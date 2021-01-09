@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Quiz in Progress</title>
 </head>
 <body>
-    QUIZ
-
+    
+    <h3>Timer: <span id="timeleft">0</span></h3>
     <div id="question-container">
-        <h1 id="current-question">Question 1</h1>
+        <h1 class="question" id="current-question">Question 1</h1>
         <button class="options" id="option-1">Option 1</button>
         <button class="options" id="option-2">Option 2</button>
         <button class="options" id="option-3">Option 3</button>
         <button class="options" id="option-4">Option 4</button>
     </div>
 
-
+<div>
+<h2 id="result-holder"></h2>
+</div>
 
     <script src= "./js/quiz.js"></script>
 </body>

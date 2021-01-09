@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.start-btn {
+    display: block;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+    width: 150px;
+    font-size: 17px;   
+    margin: 50px auto;
+}
+
+.options {
+display: block;
+background-color: pink;
+color: white;
+border-radius: 25px;
+padding: 20px;
+width: 150px;
+font-size: 17px;
+}
+
+.options:hover {
+background-color: purple;
+}
+
+button {
+    display: block;
+    margin-left: 30%;
+    margin-right: 70%;
+}
+
+.score-container {
+    text-align: center;
+    }
+
+.homepage-container {
+    text-align: center;
+}
