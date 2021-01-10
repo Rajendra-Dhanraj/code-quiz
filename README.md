@@ -28,7 +28,9 @@ _THEN I can save my initials and score_
 
 ## Screenshot
 
-![]()
+![portfolio-screenshor](./assets/images/screenshot1.png)
+
+![portfolio-screenshor](./assets/images/screenshot3.png)
 
 ## Link to deployed webpage
 
