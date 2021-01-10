@@ -1,6 +1,5 @@
-var testBtn = document.querySelector('#test-btn');
+var testBtn = document.querySelector("#test-btn");
 
-testBtn.addEventListener("click", function() {
-    window.location = './quiz.html';
-})
-
+testBtn.addEventListener("click", function () {
+  window.location = "./quiz.html";
+});
